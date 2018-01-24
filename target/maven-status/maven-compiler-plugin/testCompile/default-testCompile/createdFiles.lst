@@ -1,0 +1,3 @@
+hopsworksDestination/stage/destination/sample/TestSampleTarget.class
+hopsworksDestination/stage/processor/sample/TestSampleProcessor.class
+hopsworksDestination/stage/origin/sample/TestSampleSource.class

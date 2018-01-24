@@ -1,0 +1,14 @@
+PipelineStages.json
+hopsworksDestination/stage/lib/sample/Errors.class
+hopsworksDestination/stage/processor/sample/SampleDProcessor.class
+hopsworksDestination/stage/destination/sample/SampleDTarget.class
+hopsworksDestination/stage/destination/sample/SampleTarget$1.class
+hopsworksDestination/stage/origin/sample/SampleSource.class
+hopsworksDestination/stage/destination/sample/Groups.class
+ElDefinitions.json
+hopsworksDestination/stage/origin/sample/Groups.class
+datacollector-resource-bundles.json
+hopsworksDestination/stage/processor/sample/Groups.class
+hopsworksDestination/stage/processor/sample/SampleProcessor.class
+hopsworksDestination/stage/destination/sample/SampleTarget.class
+hopsworksDestination/stage/origin/sample/SampleDSource.class
