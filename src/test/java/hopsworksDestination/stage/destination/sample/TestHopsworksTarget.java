@@ -29,11 +29,15 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestSampleTarget {
+public class TestHopsworksTarget {
   @Test
   public void testWriteSingleRecord() throws Exception {
-    TargetRunner runner = new TargetRunner.Builder(SampleDTarget.class)
-        .addConfiguration("config", "value")
+    TargetRunner runner = new TargetRunner.Builder(HopsworksDTarget.class)
+        .addConfiguration("config", "fokus_mpo_data")
+            .addConfiguration("projectId", 1027)
+            .addConfiguration("userName", "test")
+            .addConfiguration("password", "1234")
+            .addConfiguration("fileName", "testFile")
         .build();
 
     runner.runInit();
@@ -43,6 +47,7 @@ public class TestSampleTarget {
     fields.put("first", Field.create("John"));
     fields.put("last", Field.create("Smith"));
     fields.put("someField", Field.create("some value"));
+    fields.put("test",Field.create(10));
     record.set(Field.create(fields));
 
 

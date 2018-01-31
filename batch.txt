@@ -1,1 +1,0 @@
-Record[headers='HeaderImpl[sdk:]' data='Field[MAP:{last=Field[STRING:Smith], someField=Field[STRING:some value], first=Field[STRING:John]}]']

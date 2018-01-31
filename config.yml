@@ -1,0 +1,11 @@
+#Hopswork Server Config File
+server:
+  url: "http://bbc6.sics.se"
+  port: 8080
+  path: "/hopsworks-api/api"
+user:
+  email: "{email}"
+  password: "{password}"
+api:
+  fileUpload: "/project/{id}/dataset/{fileName}"
+  auth: "/auth/login"
